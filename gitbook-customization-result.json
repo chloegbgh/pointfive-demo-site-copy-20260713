@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T12:44:53.000Z",
+  "updatedAt": "2026-07-13T13:01:03.000Z",
   "title": "PointFive Developer Docs",
   "localizedTitle": {},
   "internationalization": {
@@ -71,22 +71,43 @@
     "links": [
       {
         "to": {
-          "kind": "space",
-          "space": "M1iVnZAxYcYAd8w4aIU9"
+          "url": "https://pointfive-1.gitbook.io/pointfive-developer-docs/RoSOtyNjzLotv623mrt7/",
+          "kind": "url"
         },
-        "links": [],
+        "links": [
+          {
+            "to": {
+              "url": "https://pointfive-1.gitbook.io/pointfive-developer-docs/RoSOtyNjzLotv623mrt7/",
+              "kind": "url"
+            },
+            "links": [],
+            "style": "link",
+            "title": "Public",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://pointfive-1.gitbook.io/pointfive-developer-docs/RoSOtyNjzLotv623mrt7/?visitor.unsigned.persona=developer",
+              "kind": "url"
+            },
+            "links": [],
+            "style": "link",
+            "title": "Developer",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://pointfive-1.gitbook.io/pointfive-developer-docs/RoSOtyNjzLotv623mrt7/?visitor.unsigned.persona=internal",
+              "kind": "url"
+            },
+            "links": [],
+            "style": "link",
+            "title": "Internal contributor",
+            "localizedTitle": {}
+          }
+        ],
         "style": "link",
-        "title": "Developers",
-        "localizedTitle": {}
-      },
-      {
-        "to": {
-          "kind": "space",
-          "space": "eMdr8Lu5wEKImb812laB"
-        },
-        "links": [],
-        "style": "link",
-        "title": "Internal",
+        "title": "View as...",
         "localizedTitle": {}
       },
       {
