@@ -1205,6 +1205,7 @@ def customization_payload(created: dict) -> dict:
         "pagination": {"enabled": True},
         "pageActions": {"externalAI": True, "markdown": True, "mcp": True, "items": ["assistant", "markdown", "external-ai", "mcp", "pdf"]},
         "git": {"showEditLink": False},
+        "privacyPolicy": {"url": "https://www.pointfive.co/privacy-policy"},
         "socialPreview": {"url": logo},
         "socialAccounts": [{"platform": "linkedin", "handle": "company/pointfive", "display": {"footer": True, "header": False}}],
         "insights": {"trackingCookie": True},
