@@ -1,0 +1,119 @@
+{
+  "org": "iSAR3PTIuTm6A8q8Tfc3",
+  "org_title": "PointFive",
+  "publish_status": 200,
+  "publish": {
+    "object": "site",
+    "id": "site_ieHLH",
+    "type": "ultimate",
+    "appliedType": "ultimate",
+    "title": "PointFive Developer Docs",
+    "icon": {
+      "icon": {
+        "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg",
+        "light": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+      }
+    },
+    "basename": "pointfive-developer-docs",
+    "visibility": "share-link",
+    "defaultLevel": null,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "installIntegration": true,
+      "viewAdaptiveSchema": true,
+      "editAdaptiveSchema": true
+    },
+    "published": true,
+    "createdAt": "2026-07-13T12:39:50.000Z",
+    "siteSpaces": 3,
+    "features": [
+      {
+        "id": "sites-share-links",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-ai-assistant",
+        "plan": "ultimate",
+        "frozen": false
+      },
+      {
+        "id": "sites-pdf-export",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-page-feedback",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-advanced-customization",
+        "plan": "premium",
+        "frozen": false,
+        "customizations": [
+          "header-logo",
+          "footer-logo",
+          "footer-links",
+          "footer-copyright",
+          "semantic-colors"
+        ]
+      },
+      {
+        "id": "sites-sections",
+        "plan": "ultimate",
+        "frozen": false
+      }
+    ],
+    "urls": {
+      "location": "/orgs/iSAR3PTIuTm6A8q8Tfc3/sites/site_ieHLH",
+      "app": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/sites/site_ieHLH",
+      "preview": "https://sites.gitbook.com/preview/site_ieHLH/"
+    }
+  },
+  "first_publish_status": 200,
+  "share_status": 201,
+  "share": {
+    "object": "share-link",
+    "id": "DT4NenG6ijsmbiocSLyg",
+    "createdAt": "2026-07-13T12:41:24.000Z",
+    "name": "PointFive demo review",
+    "active": true,
+    "urls": {
+      "published": "https://pointfive-1.gitbook.io/pointfive-developer-docs/DT4NenG6ijsmbiocSLyg/"
+    }
+  },
+  "published_url": "https://pointfive-1.gitbook.io/pointfive-developer-docs/DT4NenG6ijsmbiocSLyg/",
+  "app_url": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/sites/site_ieHLH",
+  "preview_url": "https://sites.gitbook.com/preview/site_ieHLH/",
+  "repo": "https://github.com/gitbook-demo-sites/pointfive-demo-site-20260713",
+  "openapi": {
+    "created": false,
+    "slug": "pointfive-ai-efficiency-api-demo",
+    "spec": {
+      "object": "openapi-spec",
+      "id": "oas_QL893",
+      "createdAt": "2026-07-13T12:39:49.000Z",
+      "updatedAt": "2026-07-13T12:39:49.000Z",
+      "slug": "pointfive-ai-efficiency-api-demo",
+      "processingState": "complete",
+      "visibility": "public",
+      "lastProcessedAt": "2026-07-13T12:39:51.321Z",
+      "lastProcessedErrors": [],
+      "lastProcessedErrorCount": 0,
+      "lastVersion": "oasv_2QQWju",
+      "permissions": {
+        "view": true,
+        "edit": true
+      },
+      "urls": {
+        "app": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/openapi/pointfive-ai-efficiency-api-demo",
+        "location": "/orgs/iSAR3PTIuTm6A8q8Tfc3/openapi/pointfive-ai-efficiency-api-demo",
+        "published": "https://openapi.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/spec/pointfive-ai-efficiency-api-demo.yaml"
+      }
+    },
+    "note": "slug already existed"
+  }
+}

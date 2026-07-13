@@ -1,0 +1,229 @@
+{
+  "updatedAt": "2026-07-13T12:41:24.000Z",
+  "title": "PointFive Developer Docs",
+  "localizedTitle": {},
+  "internationalization": {
+    "locale": "en"
+  },
+  "styling": {
+    "theme": "clean",
+    "primaryColor": {
+      "dark": "#5DF2B6",
+      "light": "#0F7B5F"
+    },
+    "infoColor": {
+      "dark": "#82B4FF",
+      "light": "#2F7BFF"
+    },
+    "successColor": {
+      "dark": "#5DF2B6",
+      "light": "#0F7B5F"
+    },
+    "warningColor": {
+      "dark": "#F5C45B",
+      "light": "#C98216"
+    },
+    "dangerColor": {
+      "dark": "#FF8691",
+      "light": "#C93C4A"
+    },
+    "tint": {
+      "color": {
+        "dark": "#08111F",
+        "light": "#F4FBF8"
+      }
+    },
+    "corners": "rounded",
+    "depth": "flat",
+    "links": "accent",
+    "font": "Inter",
+    "monospaceFont": "IBMPlexMono",
+    "icons": "regular",
+    "background": "plain",
+    "sidebar": {
+      "background": "filled",
+      "list": "line"
+    },
+    "codeTheme": {
+      "default": {
+        "light": "default-light",
+        "dark": "default-dark"
+      },
+      "openapi": {
+        "light": "default-light",
+        "dark": "default-dark"
+      }
+    },
+    "search": "prominent"
+  },
+  "favicon": {
+    "icon": {
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+    }
+  },
+  "header": {
+    "preset": "default",
+    "logo": {
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+    },
+    "links": [
+      {
+        "to": {
+          "kind": "space",
+          "space": "M1iVnZAxYcYAd8w4aIU9"
+        },
+        "links": [],
+        "style": "link",
+        "title": "Developers",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "kind": "space",
+          "space": "eMdr8Lu5wEKImb812laB"
+        },
+        "links": [],
+        "style": "link",
+        "title": "Internal",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "url": "https://www.pointfive.co/",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "button-secondary",
+        "title": "PointFive",
+        "localizedTitle": {}
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+    },
+    "groups": [
+      {
+        "links": [
+          {
+            "to": {
+              "kind": "space",
+              "space": "fyrAROWfuFvsnsQGHDZX"
+            },
+            "title": "Home",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "M1iVnZAxYcYAd8w4aIU9"
+            },
+            "title": "Developer Docs",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "eMdr8Lu5wEKImb812laB"
+            },
+            "title": "Internal Knowledge",
+            "localizedTitle": {}
+          }
+        ],
+        "title": "Demo sections",
+        "localizedTitle": {}
+      },
+      {
+        "links": [
+          {
+            "to": {
+              "url": "https://www.pointfive.co/",
+              "kind": "url"
+            },
+            "title": "PointFive",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://www.pointfive.co/knowledge-base",
+              "kind": "url"
+            },
+            "title": "Knowledge base",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://github.com/gitbook-demo-sites/pointfive-demo-site-20260713",
+              "kind": "url"
+            },
+            "title": "Source repo",
+            "localizedTitle": {}
+          }
+        ],
+        "title": "Sources",
+        "localizedTitle": {}
+      }
+    ],
+    "copyright": "PointFive Developer Docs demo - sample content only."
+  },
+  "themes": {
+    "default": "light",
+    "toggeable": true
+  },
+  "trademark": {
+    "enabled": true
+  },
+  "feedback": {
+    "enabled": true
+  },
+  "ai": {
+    "mode": "assistant",
+    "suggestions": [
+      "How do I authenticate with the API?",
+      "How do I subscribe to webhooks?",
+      "What should I include in a troubleshooting ticket?",
+      "How does the internal docs review workflow work?"
+    ]
+  },
+  "advancedCustomization": {
+    "enabled": true
+  },
+  "pageActions": {
+    "items": [
+      "assistant",
+      "markdown",
+      "external-ai",
+      "mcp",
+      "pdf"
+    ]
+  },
+  "pagination": {
+    "enabled": true
+  },
+  "privacyPolicy": {
+    "url": "https://www.pointfive.co/privacy-policy"
+  },
+  "socialPreview": {
+    "url": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+  },
+  "socialAccounts": [
+    {
+      "handle": "company/pointfive",
+      "display": {
+        "footer": true,
+        "header": false
+      },
+      "platform": "linkedin"
+    }
+  ],
+  "externalLinks": {
+    "target": "self"
+  },
+  "insights": {
+    "trackingCookie": true
+  }
+}

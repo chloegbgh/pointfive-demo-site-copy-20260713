@@ -1,0 +1,197 @@
+{
+  "type": "sections",
+  "structure": [
+    {
+      "object": "site-section",
+      "id": "sitesc_VrxFE",
+      "icon": "house",
+      "title": "Home",
+      "description": "Demo homepage with external and internal views for PointFive.",
+      "path": "home",
+      "default": true,
+      "draft": false,
+      "siteSpaces": [
+        {
+          "object": "site-space",
+          "id": "sitesp_xHvNz",
+          "path": "home",
+          "default": true,
+          "section": "sitesc_VrxFE",
+          "space": {
+            "object": "space",
+            "id": "fyrAROWfuFvsnsQGHDZX",
+            "title": "Home",
+            "emoji": "1f3e0",
+            "visibility": "share-link",
+            "createdAt": "2026-07-13T12:39:52.430Z",
+            "updatedAt": "2026-07-13T12:41:12.286Z",
+            "editMode": "locked",
+            "internal_poweredByV2": true,
+            "internal_singleWebsocket": true,
+            "urls": {
+              "location": "/spaces/fyrAROWfuFvsnsQGHDZX",
+              "app": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/s/fyrAROWfuFvsnsQGHDZX/"
+            },
+            "organization": "iSAR3PTIuTm6A8q8Tfc3",
+            "gitSync": {},
+            "revision": "UwzpSsqZuZlmLNOShOic",
+            "defaultLevel": "inherit",
+            "comments": 0,
+            "changeRequests": 0,
+            "changeRequestsDraft": 0,
+            "changeRequestsOpen": 0,
+            "permissions": {
+              "view": true,
+              "access": true,
+              "admin": true,
+              "viewInviteLinks": true,
+              "edit": true,
+              "triggerGitSync": true,
+              "comment": true,
+              "merge": true,
+              "review": true,
+              "installIntegration": true
+            },
+            "mergeRules": {
+              "type": "inherit"
+            }
+          },
+          "title": "Home",
+          "draft": false,
+          "hasAdvancedCustomizationFeature": false,
+          "urls": {},
+          "hidden": false
+        }
+      ],
+      "urls": {}
+    },
+    {
+      "object": "site-section",
+      "id": "sitesc_xgX9e",
+      "icon": "code",
+      "title": "Developer Docs",
+      "description": "External developer documentation for auth, API requests, webhooks, and errors.",
+      "path": "developers",
+      "default": false,
+      "draft": false,
+      "siteSpaces": [
+        {
+          "object": "site-space",
+          "id": "sitesp_5zNa3",
+          "path": "developer-docs",
+          "default": true,
+          "section": "sitesc_xgX9e",
+          "space": {
+            "object": "space",
+            "id": "M1iVnZAxYcYAd8w4aIU9",
+            "title": "Developer Docs",
+            "emoji": "1f4bb",
+            "visibility": "share-link",
+            "createdAt": "2026-07-13T12:39:55.242Z",
+            "updatedAt": "2026-07-13T12:41:12.600Z",
+            "editMode": "locked",
+            "internal_poweredByV2": true,
+            "internal_singleWebsocket": true,
+            "urls": {
+              "location": "/spaces/M1iVnZAxYcYAd8w4aIU9",
+              "app": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/s/M1iVnZAxYcYAd8w4aIU9/"
+            },
+            "organization": "iSAR3PTIuTm6A8q8Tfc3",
+            "gitSync": {},
+            "revision": "yI0WOEIGTUUJOZJcE3C9",
+            "defaultLevel": "inherit",
+            "comments": 0,
+            "changeRequests": 0,
+            "changeRequestsDraft": 0,
+            "changeRequestsOpen": 0,
+            "permissions": {
+              "view": true,
+              "access": true,
+              "admin": true,
+              "viewInviteLinks": true,
+              "edit": true,
+              "triggerGitSync": true,
+              "comment": true,
+              "merge": true,
+              "review": true,
+              "installIntegration": true
+            },
+            "mergeRules": {
+              "type": "inherit"
+            }
+          },
+          "title": "Developer Docs",
+          "draft": false,
+          "hasAdvancedCustomizationFeature": false,
+          "urls": {},
+          "hidden": false
+        }
+      ],
+      "urls": {}
+    },
+    {
+      "object": "site-section",
+      "id": "sitesc_5FfOg",
+      "icon": "users-gear",
+      "title": "Internal Knowledge",
+      "description": "Internal docs workflow, review process, and API documentation operating model.",
+      "path": "internal",
+      "default": false,
+      "draft": false,
+      "siteSpaces": [
+        {
+          "object": "site-space",
+          "id": "sitesp_A0oea",
+          "path": "internal-knowledge",
+          "default": true,
+          "section": "sitesc_5FfOg",
+          "space": {
+            "object": "space",
+            "id": "eMdr8Lu5wEKImb812laB",
+            "title": "Internal Knowledge",
+            "emoji": "1f9ed",
+            "visibility": "share-link",
+            "createdAt": "2026-07-13T12:39:58.318Z",
+            "updatedAt": "2026-07-13T12:41:12.898Z",
+            "editMode": "locked",
+            "internal_poweredByV2": true,
+            "internal_singleWebsocket": true,
+            "urls": {
+              "location": "/spaces/eMdr8Lu5wEKImb812laB",
+              "app": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/s/eMdr8Lu5wEKImb812laB/"
+            },
+            "organization": "iSAR3PTIuTm6A8q8Tfc3",
+            "gitSync": {},
+            "revision": "a1QPc2u7PszwSQTOkLVi",
+            "defaultLevel": "inherit",
+            "comments": 0,
+            "changeRequests": 0,
+            "changeRequestsDraft": 0,
+            "changeRequestsOpen": 0,
+            "permissions": {
+              "view": true,
+              "access": true,
+              "admin": true,
+              "viewInviteLinks": true,
+              "edit": true,
+              "triggerGitSync": true,
+              "comment": true,
+              "merge": true,
+              "review": true,
+              "installIntegration": true
+            },
+            "mergeRules": {
+              "type": "inherit"
+            }
+          },
+          "title": "Internal Knowledge",
+          "draft": false,
+          "hasAdvancedCustomizationFeature": false,
+          "urls": {},
+          "hidden": false
+        }
+      ],
+      "urls": {}
+    }
+  ]
+}
