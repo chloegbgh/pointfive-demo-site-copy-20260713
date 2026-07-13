@@ -140,31 +140,31 @@ def scaffold_assets() -> None:
         <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-label="PointFive developer docs">
           <defs>
             <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-              <stop offset="0" stop-color="#08111F"/>
-              <stop offset="0.62" stop-color="#102D3B"/>
-              <stop offset="1" stop-color="#113F36"/>
+              <stop offset="0" stop-color="#FCFCF9"/>
+              <stop offset="0.62" stop-color="#F4F1EB"/>
+              <stop offset="1" stop-color="#E7E6E1"/>
             </linearGradient>
             <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
-              <path d="M72 0H0V72" fill="none" stroke="#FFFFFF" stroke-opacity=".07" stroke-width="1"/>
+              <path d="M72 0H0V72" fill="none" stroke="#1D242D" stroke-opacity=".08" stroke-width="1"/>
             </pattern>
           </defs>
           <rect width="1600" height="560" fill="url(#bg)"/>
           <rect width="1600" height="560" fill="url(#grid)"/>
-          <circle cx="1230" cy="178" r="190" fill="#5DF2B6" opacity=".14"/>
-          <circle cx="1390" cy="385" r="142" fill="#2F7BFF" opacity=".16"/>
-          <text x="104" y="166" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="760" fill="#FFFFFF">PointFive Developer Docs</text>
-          <text x="108" y="230" font-family="Inter, Arial, sans-serif" font-size="30" fill="#DDF7EF">Authenticate, stream findings, receive remediation webhooks, and troubleshoot integrations.</text>
-          <rect x="108" y="295" width="285" height="54" rx="8" fill="#5DF2B6"/>
-          <text x="136" y="330" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="720" fill="#08111F">Start in five minutes</text>
+          <circle cx="1230" cy="178" r="190" fill="#027A48" opacity=".10"/>
+          <circle cx="1390" cy="385" r="142" fill="#FF6259" opacity=".11"/>
+          <text x="104" y="166" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="760" fill="#1D242D">PointFive Developer Docs</text>
+          <text x="108" y="230" font-family="Inter, Arial, sans-serif" font-size="30" fill="#475467">Authenticate, stream findings, receive remediation webhooks, and troubleshoot integrations.</text>
+          <rect x="108" y="295" width="285" height="54" rx="8" fill="#1D242D"/>
+          <text x="136" y="330" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="720" fill="#FCFCF9">Start in five minutes</text>
           <g transform="translate(980 112)">
-            <rect width="470" height="328" rx="18" fill="#06101A" stroke="#FFFFFF" stroke-opacity=".16"/>
-            <text x="34" y="58" font-family="IBMPlexMono, monospace" font-size="20" fill="#5DF2B6">POST /v1/findings/query</text>
-            <text x="34" y="116" font-family="IBMPlexMono, monospace" font-size="18" fill="#FFFFFF">{</text>
-            <text x="58" y="150" font-family="IBMPlexMono, monospace" font-size="18" fill="#FFFFFF">"cloud": "aws",</text>
-            <text x="58" y="184" font-family="IBMPlexMono, monospace" font-size="18" fill="#FFFFFF">"severity": "high",</text>
-            <text x="58" y="218" font-family="IBMPlexMono, monospace" font-size="18" fill="#FFFFFF">"category": "deepwaste"</text>
-            <text x="34" y="252" font-family="IBMPlexMono, monospace" font-size="18" fill="#FFFFFF">}</text>
-            <path d="M34 282H432" stroke="#5DF2B6" stroke-width="4"/>
+            <rect width="470" height="328" rx="18" fill="#1D242D"/>
+            <text x="34" y="58" font-family="IBMPlexMono, monospace" font-size="20" fill="#FCFCF9">POST /v1/findings/query</text>
+            <text x="34" y="116" font-family="IBMPlexMono, monospace" font-size="18" fill="#FCFCF9">{</text>
+            <text x="58" y="150" font-family="IBMPlexMono, monospace" font-size="18" fill="#FCFCF9">"cloud": "aws",</text>
+            <text x="58" y="184" font-family="IBMPlexMono, monospace" font-size="18" fill="#FCFCF9">"severity": "high",</text>
+            <text x="58" y="218" font-family="IBMPlexMono, monospace" font-size="18" fill="#FCFCF9">"category": "deepwaste"</text>
+            <text x="34" y="252" font-family="IBMPlexMono, monospace" font-size="18" fill="#FCFCF9">}</text>
+            <path d="M34 282H432" stroke="#027A48" stroke-width="4"/>
           </g>
         </svg>
         """,
@@ -1126,19 +1126,21 @@ def import_spaces(created: dict) -> None:
 
 
 def customization_payload(created: dict) -> dict:
-    logo = f"{RAW}/assets/pointfive-wordmark.svg"
+    logo = "https://www.pointfive.co/brand/pointfive-wordmark.svg"
+    favicon_light = "https://www.pointfive.co/icon-light-32x32.png"
+    favicon_dark = "https://www.pointfive.co/icon-dark-32x32.png"
     return {
         "title": "PointFive Developer Docs",
         "localizedTitle": {},
         "internationalization": {"locale": "en"},
         "styling": {
             "theme": "clean",
-            "primaryColor": {"light": "#0F7B5F", "dark": "#5DF2B6"},
-            "infoColor": {"light": "#2F7BFF", "dark": "#82B4FF"},
-            "successColor": {"light": "#0F7B5F", "dark": "#5DF2B6"},
-            "warningColor": {"light": "#C98216", "dark": "#F5C45B"},
-            "dangerColor": {"light": "#C93C4A", "dark": "#FF8691"},
-            "tint": {"color": {"light": "#F4FBF8", "dark": "#08111F"}},
+            "primaryColor": {"light": "#1D242D", "dark": "#FCFCF9"},
+            "infoColor": {"light": "#027A48", "dark": "#34C759"},
+            "successColor": {"light": "#027A48", "dark": "#34C759"},
+            "warningColor": {"light": "#FBBF24", "dark": "#FBBF24"},
+            "dangerColor": {"light": "#FF6259", "dark": "#FF6259"},
+            "tint": {"color": {"light": "#FCFCF9", "dark": "#1D242D"}},
             "corners": "rounded",
             "depth": "flat",
             "links": "accent",
@@ -1153,7 +1155,7 @@ def customization_payload(created: dict) -> dict:
             },
             "search": "prominent",
         },
-        "favicon": {"icon": {"light": logo, "dark": logo}},
+        "favicon": {"icon": {"light": favicon_light, "dark": favicon_dark}},
         "header": {
             "preset": "default",
             "logo": {"light": logo, "dark": logo},
@@ -1185,7 +1187,7 @@ def customization_payload(created: dict) -> dict:
                     ],
                 },
             ],
-            "copyright": "PointFive Developer Docs demo - sample content only.",
+            "copyright": "© 2026 PointFive Ltd. Demo content only.",
         },
         "themes": {"default": "light", "toggeable": True},
         "pdf": {"enabled": True},
@@ -1207,7 +1209,7 @@ def customization_payload(created: dict) -> dict:
         "git": {"showEditLink": False},
         "privacyPolicy": {"url": "https://www.pointfive.co/privacy-policy"},
         "socialPreview": {"url": logo},
-        "socialAccounts": [{"platform": "linkedin", "handle": "company/pointfive", "display": {"footer": True, "header": False}}],
+        "socialAccounts": [{"platform": "linkedin", "handle": "company/pointfive-us", "display": {"footer": True, "header": False}}],
         "insights": {"trackingCookie": True},
     }
 
