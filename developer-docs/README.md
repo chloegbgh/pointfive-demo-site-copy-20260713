@@ -1,8 +1,13 @@
 ---
 description: "Build cloud and AI efficiency workflows with PointFive."
 icon: code
+cover: "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-developer-workflow.svg"
+coverY: 0
 layout:
-  width: default
+  width: wide
+  cover:
+    visible: true
+    size: hero
   title:
     visible: true
   description:
@@ -18,6 +23,12 @@ layout:
 # Developer Docs
 
 Use PointFive APIs and webhooks to bring cost intelligence into the workflows developers already use: pull requests, CI/CD checks, IDEs, FinOps dashboards, and remediation queues.
+
+{% if visitor.claims.unsigned.persona === "developer" %}
+{% hint style="success" icon="code" %}
+You are viewing the external developer path. This view emphasizes authentication, API requests, webhooks, and integration troubleshooting.
+{% endhint %}
+{% endif %}
 
 <table data-view="cards"><thead><tr><th width="48"></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
 <tr><td><h3><i class="fa-bolt" style="color:$primary;"></i></h3></td><td><strong>Quickstart</strong></td><td>Create a token, query high-impact findings, and inspect remediation context.</td><td><a href="getting-started/quickstart.md">Quickstart</a></td></tr>

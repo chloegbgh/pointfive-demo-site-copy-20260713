@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-label="PointFive developer workflow illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#FCFCF9"/>
+      <stop offset="1" stop-color="#F0ECE3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#1D242D" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="520" rx="24" fill="url(#bg)"/>
+  <circle cx="1080" cy="96" r="160" fill="#027A48" opacity=".10"/>
+  <circle cx="1205" cy="380" r="118" fill="#FF6259" opacity=".12"/>
+  <g filter="url(#shadow)">
+    <rect x="110" y="104" width="1180" height="312" rx="26" fill="#FCFCF9" stroke="#1D242D" stroke-opacity=".10"/>
+    <rect x="168" y="164" width="222" height="174" rx="18" fill="#1D242D"/>
+    <text x="198" y="208" font-family="IBMPlexMono, monospace" font-size="19" font-weight="700" fill="#5DF2B6">POST /findings</text>
+    <text x="198" y="253" font-family="IBMPlexMono, monospace" font-size="17" fill="#FCFCF9">{ cloud, team }</text>
+    <path d="M198 298H352" stroke="#027A48" stroke-width="5" stroke-linecap="round"/>
+    <path d="M430 252H555" stroke="#027A48" stroke-width="5" stroke-linecap="round"/>
+    <path d="M835 252H960" stroke="#027A48" stroke-width="5" stroke-linecap="round"/>
+    <rect x="555" y="164" width="280" height="174" rx="18" fill="#F5F2EC" stroke="#1D242D" stroke-opacity=".10"/>
+    <text x="595" y="214" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="760" fill="#1D242D">PointFive API</text>
+    <text x="595" y="251" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475467">Findings, remediation</text>
+    <text x="595" y="280" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475467">context, webhook events</text>
+    <rect x="960" y="164" width="250" height="174" rx="18" fill="#F5F2EC" stroke="#1D242D" stroke-opacity=".10"/>
+    <text x="999" y="214" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="760" fill="#1D242D">Review queue</text>
+    <text x="999" y="251" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475467">Approve before</text>
+    <text x="999" y="280" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475467">publishing or fixing</text>
+  </g>
+</svg>
