@@ -1,0 +1,96 @@
+{
+  "org": "iSAR3PTIuTm6A8q8Tfc3",
+  "org_title": "PointFive",
+  "site": "site_ieHLH",
+  "spaces": {
+    "HOME": "fyrAROWfuFvsnsQGHDZX",
+    "DEVELOPERS": "M1iVnZAxYcYAd8w4aIU9",
+    "INTERNAL": "eMdr8Lu5wEKImb812laB"
+  },
+  "sections": {
+    "HOME": "sitesc_VrxFE",
+    "DEVELOPERS": "sitesc_xgX9e",
+    "INTERNAL": "sitesc_5FfOg"
+  },
+  "site_spaces": {
+    "HOME": "sitesp_xHvNz",
+    "DEVELOPERS": "sitesp_5zNa3",
+    "INTERNAL": "sitesp_A0oea"
+  },
+  "site_object": {
+    "object": "site",
+    "id": "site_ieHLH",
+    "type": "ultimate",
+    "appliedType": "ultimate",
+    "title": "PointFive Developer Docs",
+    "icon": {
+      "icon": {
+        "dark": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256",
+        "light": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256"
+      }
+    },
+    "basename": "pointfive-developer-docs",
+    "visibility": "share-link",
+    "defaultLevel": null,
+    "permissions": {
+      "view": false,
+      "access": false,
+      "admin": false,
+      "installIntegration": false,
+      "viewAdaptiveSchema": false,
+      "editAdaptiveSchema": false
+    },
+    "published": false,
+    "createdAt": "2026-07-13T12:39:50.000Z",
+    "siteSpaces": 0,
+    "features": [
+      {
+        "id": "sites-share-links",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-ai-assistant",
+        "plan": "ultimate",
+        "frozen": false
+      },
+      {
+        "id": "sites-pdf-export",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-page-feedback",
+        "plan": "premium",
+        "frozen": false
+      }
+    ],
+    "urls": {
+      "location": "/orgs/iSAR3PTIuTm6A8q8Tfc3/sites/site_ieHLH",
+      "app": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/sites/site_ieHLH",
+      "preview": "https://sites.gitbook.com/preview/site_ieHLH/"
+    }
+  },
+  "openapi": {
+    "created": true,
+    "slug": "pointfive-ai-efficiency-api-demo",
+    "spec": {
+      "object": "openapi-spec",
+      "id": "oas_QL893",
+      "createdAt": "2026-07-13T12:39:49.000Z",
+      "updatedAt": "2026-07-13T12:39:49.000Z",
+      "slug": "pointfive-ai-efficiency-api-demo",
+      "processingState": "pending",
+      "visibility": "public",
+      "lastProcessedErrorCount": 0,
+      "permissions": {
+        "view": true,
+        "edit": true
+      },
+      "urls": {
+        "app": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/openapi/pointfive-ai-efficiency-api-demo",
+        "location": "/orgs/iSAR3PTIuTm6A8q8Tfc3/openapi/pointfive-ai-efficiency-api-demo"
+      }
+    }
+  }
+}
