@@ -1153,7 +1153,7 @@ def customization_payload(created: dict) -> dict:
             },
             "search": "prominent",
         },
-        "favicon": {"emoji": "◎"},
+        "favicon": {"icon": {"light": logo, "dark": logo}},
         "header": {
             "preset": "default",
             "logo": {"light": logo, "dark": logo},

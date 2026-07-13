@@ -1,0 +1,17 @@
+{
+  "HOME": {
+    "status": 204,
+    "space": "fyrAROWfuFvsnsQGHDZX",
+    "folder": "home"
+  },
+  "DEVELOPERS": {
+    "status": 204,
+    "space": "M1iVnZAxYcYAd8w4aIU9",
+    "folder": "developer-docs"
+  },
+  "INTERNAL": {
+    "status": 204,
+    "space": "eMdr8Lu5wEKImb812laB",
+    "folder": "internal-knowledge"
+  }
+}
