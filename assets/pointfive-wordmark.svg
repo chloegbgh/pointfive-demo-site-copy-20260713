@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="128" viewBox="0 0 560 128" role="img" aria-label="PointFive">
+  <rect width="560" height="128" rx="20" fill="#08111F"/>
+  <circle cx="72" cy="64" r="30" fill="#5DF2B6"/>
+  <path d="M72 34 A30 30 0 0 1 72 94" fill="#2F7BFF"/>
+  <text x="124" y="78" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="760" fill="#FFFFFF">PointFive</text>
+</svg>

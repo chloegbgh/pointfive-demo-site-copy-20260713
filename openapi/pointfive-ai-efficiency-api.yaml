@@ -1,0 +1,95 @@
+openapi: 3.1.0
+info:
+  title: PointFive AI Efficiency API
+  version: demo
+  description: Demo-safe placeholder API used for the GitBook site preview.
+servers:
+  - url: https://api.pointfive.example/v1
+security:
+  - bearerAuth: []
+paths:
+  /findings/query:
+    post:
+      summary: Query efficiency findings
+      operationId: queryFindings
+      tags: [Findings]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FindingQuery'
+      responses:
+        '200':
+          description: Matching findings
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  findings:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Finding'
+  /remediations:
+    post:
+      summary: Create a remediation review task
+      operationId: createRemediation
+      tags: [Remediations]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                findingId:
+                  type: string
+                reviewer:
+                  type: string
+      responses:
+        '202':
+          description: Remediation task queued
+  /webhooks/test:
+    post:
+      summary: Send a test webhook event
+      operationId: sendTestWebhook
+      tags: [Webhooks]
+      responses:
+        '202':
+          description: Test event accepted
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    FindingQuery:
+      type: object
+      properties:
+        cloud:
+          type: string
+          enum: [aws, azure, gcp, snowflake, databricks]
+        severity:
+          type: string
+          enum: [low, medium, high, critical]
+        category:
+          type: string
+    Finding:
+      type: object
+      properties:
+        id:
+          type: string
+        category:
+          type: string
+        resource:
+          type: string
+        estimatedMonthlyWaste:
+          type: number
+        remediation:
+          type: object
+          properties:
+            status:
+              type: string
+            source:
+              type: string

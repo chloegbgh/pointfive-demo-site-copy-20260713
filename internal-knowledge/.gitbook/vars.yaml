@@ -1,0 +1,6 @@
+company_name: PointFive
+product_name: AI Efficiency OS
+api_base_url: https://api.pointfive.example/v1
+webhook_event: finding.created
+support_email: docs-review@pointfive.example
+review_sla: "2 business days"
