@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T12:41:24.000Z",
+  "updatedAt": "2026-07-13T12:44:53.000Z",
   "title": "PointFive Developer Docs",
   "localizedTitle": {},
   "internationalization": {
@@ -8,29 +8,29 @@
   "styling": {
     "theme": "clean",
     "primaryColor": {
-      "dark": "#5DF2B6",
-      "light": "#0F7B5F"
+      "dark": "#FCFCF9",
+      "light": "#1D242D"
     },
     "infoColor": {
-      "dark": "#82B4FF",
-      "light": "#2F7BFF"
+      "dark": "#34C759",
+      "light": "#027A48"
     },
     "successColor": {
-      "dark": "#5DF2B6",
-      "light": "#0F7B5F"
+      "dark": "#34C759",
+      "light": "#027A48"
     },
     "warningColor": {
-      "dark": "#F5C45B",
-      "light": "#C98216"
+      "dark": "#FBBF24",
+      "light": "#FBBF24"
     },
     "dangerColor": {
-      "dark": "#FF8691",
-      "light": "#C93C4A"
+      "dark": "#FF6259",
+      "light": "#FF6259"
     },
     "tint": {
       "color": {
-        "dark": "#08111F",
-        "light": "#F4FBF8"
+        "dark": "#1D242D",
+        "light": "#FCFCF9"
       }
     },
     "corners": "rounded",
@@ -58,15 +58,15 @@
   },
   "favicon": {
     "icon": {
-      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg",
-      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+      "light": "https://www.pointfive.co/icon-light-32x32.png",
+      "dark": "https://www.pointfive.co/icon-dark-32x32.png"
     }
   },
   "header": {
     "preset": "default",
     "logo": {
-      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg",
-      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+      "light": "https://www.pointfive.co/brand/pointfive-wordmark.svg",
+      "dark": "https://www.pointfive.co/brand/pointfive-wordmark.svg"
     },
     "links": [
       {
@@ -103,8 +103,8 @@
   },
   "footer": {
     "logo": {
-      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg",
-      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+      "light": "https://www.pointfive.co/brand/pointfive-wordmark.svg",
+      "dark": "https://www.pointfive.co/brand/pointfive-wordmark.svg"
     },
     "groups": [
       {
@@ -168,7 +168,7 @@
         "localizedTitle": {}
       }
     ],
-    "copyright": "PointFive Developer Docs demo - sample content only."
+    "copyright": "\u00a9 2026 PointFive Ltd. Demo content only."
   },
   "themes": {
     "default": "light",
@@ -208,11 +208,11 @@
     "url": "https://www.pointfive.co/privacy-policy"
   },
   "socialPreview": {
-    "url": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+    "url": "https://www.pointfive.co/brand/pointfive-wordmark.svg"
   },
   "socialAccounts": [
     {
-      "handle": "company/pointfive",
+      "handle": "company/pointfive-us",
       "display": {
         "footer": true,
         "header": false

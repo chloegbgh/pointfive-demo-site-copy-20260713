@@ -10,8 +10,8 @@
     "title": "PointFive Developer Docs",
     "icon": {
       "icon": {
-        "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg",
-        "light": "https://raw.githubusercontent.com/gitbook-demo-sites/pointfive-demo-site-20260713/main/assets/pointfive-wordmark.svg"
+        "dark": "https://www.pointfive.co/icon-dark-32x32.png",
+        "light": "https://www.pointfive.co/icon-light-32x32.png"
       }
     },
     "basename": "pointfive-developer-docs",
@@ -77,15 +77,15 @@
   "share_status": 201,
   "share": {
     "object": "share-link",
-    "id": "DT4NenG6ijsmbiocSLyg",
-    "createdAt": "2026-07-13T12:41:24.000Z",
+    "id": "RoSOtyNjzLotv623mrt7",
+    "createdAt": "2026-07-13T12:44:53.000Z",
     "name": "PointFive demo review",
     "active": true,
     "urls": {
-      "published": "https://pointfive-1.gitbook.io/pointfive-developer-docs/DT4NenG6ijsmbiocSLyg/"
+      "published": "https://pointfive-1.gitbook.io/pointfive-developer-docs/RoSOtyNjzLotv623mrt7/"
     }
   },
-  "published_url": "https://pointfive-1.gitbook.io/pointfive-developer-docs/DT4NenG6ijsmbiocSLyg/",
+  "published_url": "https://pointfive-1.gitbook.io/pointfive-developer-docs/RoSOtyNjzLotv623mrt7/",
   "app_url": "https://app.gitbook.com/o/iSAR3PTIuTm6A8q8Tfc3/sites/site_ieHLH",
   "preview_url": "https://sites.gitbook.com/preview/site_ieHLH/",
   "repo": "https://github.com/gitbook-demo-sites/pointfive-demo-site-20260713",
