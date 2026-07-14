@@ -33,7 +33,9 @@ layout:
 
 HELLO WORLD!
 
-A clean product-style docs experience for external developers, with an internal contributor view for product, CSM, and engineering teams.
+TEST - CONTENT
+
+{% include ".gitbook/includes/a-clean-product-style-docs-....md" %}
 
 The demo centers on the developer path Chloe requested: authenticate, make API requests, subscribe to webhooks, and troubleshoot errors. It also shows how PointFive could separate public customer-facing docs from internal knowledge and review workflows while keeping both surfaces in one GitBook site.
 
